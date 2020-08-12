@@ -173,8 +173,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-header,
-.fh5co-cover {
+#zylo-header,
+.zylo-cover {
 	background-color: transparent;
 	background-size: cover;
 	background-attachment: fixed;
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			// border: 1px solid rgba($brand-white,1);
 			@include border-radius(50%);
 		}
-		.fh5co-social-icons {
+		.zylo-social-icons {
 			li {
 				a {
 					color: $brand-white;
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-features {
+#zylo-features {
 	background: $brand-primary;
 	h2 {
 		color: $brand-white;
@@ -348,32 +348,32 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-about,
-#fh5co-resume,
-#fh5co-skills,
-#fh5co-started,
-#fh5co-work,
-#fh5co-blog,
-#fh5co-pricing,
-#fh5co-contact{
+#zylo-about,
+#zylo-resume,
+#zylo-skills,
+#zylo-started,
+#zylo-work,
+#zylo-blog,
+#zylo-pricing,
+#zylo-contact{
 	padding: 7em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
 	}
 }
-#fh5co-started{
+#zylo-started{
 	border-bottom: none;
 }
 
-.fh5co-bg-color{
+.zylo-bg-color{
 	// background: #233142;
 
 }
-.fh5co-bg-dark{
+.zylo-bg-dark{
 	background: $brand-bg-dark;
 	background: $brand-primary;
-	.fh5co-heading{
+	.zylo-heading{
 		h2{
 			color: $brand-white !important;
 		}
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-social-icons {
+.zylo-social-icons {
 	margin: 0;
 	padding: 0;
 	li {
@@ -432,8 +432,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-about{
-	.fh5co-social-icons {
+#zylo-about{
+	.zylo-social-icons {
 		margin: 0;
 		padding: 0;
 		li {
@@ -458,9 +458,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-heading {
+.zylo-heading {
 	margin-bottom: 5em;
-	&.fh5co-heading-sm {
+	&.zylo-heading-sm {
 		margin-bottom: 2em;
 	}
 	h2 {
@@ -808,14 +808,14 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-started {
+#zylo-started {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
 	float: left;
 	width: 100%;
-	.fh5co-heading {
+	.zylo-heading {
 		margin-bottom: 0;
 		h2 {
 			color: $brand-white;
@@ -843,7 +843,7 @@ h1, h2, h3, h4, h5, h6, figure {
 //PRICING
 
 // BLOG
-.fh5co-blog{
+.zylo-blog{
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
@@ -933,7 +933,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-consult{
+#zylo-consult{
 	@include flex();
 	@include flexwrap();
 	width: 100%;
@@ -966,7 +966,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-.fh5co-video {
+.zylo-video {
 	overflow: hidden;
 	@media screen and (max-width: $screen-md){
 		height: 450px;
@@ -983,7 +983,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-footer {
+#zylo-footer {
 	padding: 50px 0;
 	float: left;
 	width: 100%;
@@ -1265,7 +1265,7 @@ input[type="text"] {
    margin: 0px !important;
 }
 
-.fh5co-loader {
+.zylo-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
