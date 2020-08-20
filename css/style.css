@@ -1,0 +1,196 @@
+:root {
+  --backround-colour: #0a192e;
+  --main-colour: #64ffda;
+  --secondary-colour: #ccd6f6;
+  --thrid-colour: #8792b0;
+
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: #15263d;
+  --menu-speed: 0.75s;
+}
+
+body {
+  background-color: var(--backround-colour);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  line-height: 1.4;
+}
+
+#home {
+    width: 960;
+    height: 768;
+}
+
+.home-page-about {
+  margin: auto;
+  padding-top: 250px;
+  width: 800px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.home-page-about p {
+  font-family: "Roboto Mono", monospace;
+  color: var(--main-colour);
+}
+
+.home-page-about .about {
+  color: var(--thrid-colour);
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 23px;
+}
+
+.home-page-about h2 {
+  color: var(--thrid-colour);
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.home-page-about h1 {
+  color: var(--secondary-colour);
+  font-size: 75px;
+  line-height: 0;
+}
+
+.contact {
+  background-color: var(--backround-colour);
+  color: var(--main-colour);
+  border: 2px solid var(--main-colour);
+  size: 200px;
+  padding: 15px 42px;
+  margin-top: 48px;
+  transition-duration: 0.4s;
+}
+.contact:hover {
+  background-color: #122d3d;
+}
+
+.links a{
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+    color: var(--thrid-colour);
+}
+
+.nav-logo{
+    font-family: "Merriweather Sans", sans-serif;
+    text-decoration: none;
+    color: var(--main-colour);
+    font-size: 26px;
+    margin-top: 40px;
+    padding-left: 15px;
+
+}
+
+.about-page{
+    padding-top: 400px;
+    padding-left: 540px;
+}
+
+.about-page h1 {
+    font-family: "Merriweather Sans", sans-serif;
+    color: var(--secondary-colour);
+    font-size: 46px;
+}
+
+
+.socials-page{
+    padding-left: 540px;
+}
+
+.socials-page h1 {
+    font-family: "Merriweather Sans", sans-serif;
+    color: var(--secondary-colour);
+    font-size: 46px;
+}
+
+
+.socials-page p {
+    color: var(--thrid-colour);
+    font-family: "Merriweather Sans", sans-serif;
+    line-height: 33px;
+}
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+
+span:hover + img{
+    display: block;
+ }
+
+
+
+.about-page p {
+    color: var(--thrid-colour);
+    font-family: "Merriweather Sans", sans-serif;
+    line-height: 33px;
+}
+
+.list-1 .lanuages {
+    font-family: "Roboto Mono", monospace;
+    list-style: none;
+    color: var(--thrid-colour);
+    padding-left: 500px;
+}
+
+.list-2 .lanuages {
+    font-family: "Roboto Mono", monospace;
+    list-style: none;
+    color: var(--thrid-colour);
+    padding-left: 680px;
+    position: relative;
+    bottom: 80px;
+}
+
+.about-logo img{
+    width: 340px;
+    height: 340px;
+    border-radius: 40px;
+    position: relative;
+    left: 1140px;
+    bottom: 440px;
+}
+
+
+
